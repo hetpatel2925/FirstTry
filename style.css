@@ -1,0 +1,131 @@
+.project-list{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    flex: 1;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    color: dimgrey;
+    font-size: 18px;
+}
+.plan-title{
+    color: darkslategray;
+    font-size: 40px;
+    display: inline;
+}
+.go-alert{
+    background-color: darkolivegreen;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    flex: 1;
+}
+.maincontent{
+    font-size: 17px;
+}
+.contentp{
+    color: darkslategrey;
+    font-size: 29px;
+    font-weight: bolder;
+    margin-left: 100px;
+}
+.image-list{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.img1{
+    border-radius: 50%;
+    float: left;
+}
+.img2{
+    border-radius: 50%;
+    float: left;
+}
+.img3{
+    height: 250px;
+    width: 350px;
+    border-radius: 100%;
+    float: left;
+}
+.text{
+    font-size: 21px;
+    text-align: right;
+    color: black;
+    font-weight: 600;
+    font-style: oblique;
+}
+.price-container{
+    background-color: lightgrey;
+    flex-direction: row;
+    display: flex;
+    gap: 50px;
+    position: relative;
+    flex-wrap: wrap;
+}
+.price-title{
+    color: darkslategray;
+    font-size: 35px;
+    display: inline;
+    margin-left: 90px;
+}
+.product-head{
+    font-size: 21px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+.product-price{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: end;
+}
+.Cappuccino-price{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.Espresso-price{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.Frapino-price{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.conclusion{
+    text-align: right;
+    font-size: 28px;
+    font-weight: 700;
+    flex: 1;
+    flex-wrap: wrap;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.button{
+    background-color: forestgreen;
+    color: white;
+    font-weight: bolder;
+    align-content: end;
+    flex: 1;
+    flex-wrap: wrap;
+    border: 0;
+}
+@media (max-width: 680px){
+    .container > .plan-title{
+        font-size: 90px;
+        text-align: center;
+    }
+}
